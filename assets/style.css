@@ -1,0 +1,78 @@
+/* .parallax { 
+ 
+  background-image: url("../images/IMG_9230.jpeg");
+  height: 500px; 
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+/* opening image */
+.image-container {
+  background-image: url("../images/Rain032.jpg");
+  background-size: cover; 
+  position: relative; /* Needed to position the cutout text in the middle of the image */
+  height: 700px;
+}
+
+/* my name */
+.text {
+  background-color: rgba(255, 255, 255, 0.847);
+  color: black;
+  font-size: 7vw; /* Responsive font size */
+  margin: 0 auto; 
+  padding: 10px;
+  text-align: center; 
+  position: absolute; 
+  top: 50%; 
+  left: 60%;
+  /* add mobile response to change to 50% at certain width of phone !!!!!! */
+  transform: translate(-50%, -50%); /* Position text in the middle */
+  mix-blend-mode: screen; /* This makes the cutout text possible */
+}
+
+/* styling of each section */
+.container {
+  padding: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/* title of each section */
+#title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* cards */
+.cards {
+  margin-bottom: 50px;
+}
+.card-title {
+  text-align: center;
+}
+.card-text {
+  text-align:center;
+}
+#cardbutton {
+}
+
+/* skills */
+#skills {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* art portfolio */
+#photo {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.carousel{
+  margin-bottom: 50px;
+}
+#dance {
+  text-align: center;
+}
