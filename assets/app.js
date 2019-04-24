@@ -3,22 +3,22 @@ $(document).ready(function () {
   $("#about-me").on('click', function (event) {
     $('html, body').animate({
       scrollTop: ($('#about').offset().top)
-    }, 700);
+    }, 200);
   });
   $("#web").on('click', function (event) {
     $('html, body').animate({
       scrollTop: ($('#webPage').offset().top)
-    }, 700);
+    }, 200);
   });
   $("#art").on('click', function (event) {
     $('html, body').animate({
       scrollTop: ($('#artPage').offset().top)
-    }, 700);
+    }, 200);
   });
   $("#contact").on('click', function(event) {
     $('html, body').animate({
       scrollTop: ($('#contactPage').offset().top)
-  },500);
+  }, 200);
 });
 
 });
