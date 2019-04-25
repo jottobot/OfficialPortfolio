@@ -1,13 +1,4 @@
-/* .parallax { 
- 
-  background-image: url("../images/IMG_9230.jpeg");
-  height: 500px; 
-
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
+/* CAN THESE TWO BE COMBINED??!?!?!!?
 
 /* opening image */
 .image-container {
@@ -39,14 +30,26 @@
 /* nav bar fonts */
 .nav-link {
   font-family: 'Open Sans', sans-serif;
+  color: darkolivegreen;
 }
-
-/* styling of each section */
-/* .container {
-  padding: 50px;
-  padding-left: 100px;
-  padding-right: 100px;
-} */
+#labels {
+  color: darkolivegreen;
+}
+.navbar-nav{
+  color: darkolivegreen;
+}
+#home{
+  color: darkolivegreen;
+}
+#spanid {
+  color: darkolivegreen;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
 
 /* title of each section */
 #title {
@@ -55,6 +58,7 @@
   font-family: 'Merriweather', serif;
   font-size: 40px;
   letter-spacing: 2px;
+  color: #575C33;
 }
 
 hr {
@@ -72,6 +76,12 @@ p {
   padding: 50px;
   padding-left: 150px;
   padding-right: 150px;
+}
+#summary {
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+  font-size: 20px;
+  color: #31261c;
 }
 #webPage {
   background-color: rgba(176, 187, 137, 0.555);
@@ -95,26 +105,40 @@ p {
 /* cards */
 .cards {
   margin-bottom: 50px;
+  border-radius: 25px;
+}
+.card-title {
+  color:  #31261c;
+}
+.card-text {
+  color:  #31261c;
 }
 #cardbutton {
   background-color: white;
-  color: black;
+  color: #31261c;
+}
+.btn-primary {
+  border-color: black;
 }
 
 /* skills div */
 #skills {
   text-align: center;
   margin-bottom: 20px;
+  letter-spacing: 1.2px;
+  color: #6D5D49;
 }
 
 /* art portfolio div */
 #photo {
   margin-bottom: 20px;
   text-align: center;
+  font-size: 30px;
+  letter-spacing: 1.2px;
+  color: #6D5D49;
 }
-.carousel{
-  margin-bottom: 50px;
-  /* MAKE THIS SMALLER */
+.carousel {
+  margin-bottom: 50px;  
 }
 #carouseltext {
   color: black;
@@ -122,9 +146,19 @@ p {
 #dance {
   text-align: center;
   margin-bottom: 20px;
+  letter-spacing: 1.2px;
+  color: #6D5D49;
 }
-.youtube {
-  /* ALIGN CENTER */
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+#youtubetext {
+  font-size: 17px;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 30px;
+  color: #36281c;
+  text-align: center;
 }
 #dance {
   margin-bottom: 20px;
@@ -137,12 +171,23 @@ p {
 }
 #contactInfo {
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
+  color: #493829;
+}
+#contacttitle {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  margin-bottom: 3px;
+  color:  #492d15;
 }
 #contactlink {
   color: darkolivegreen;
 }
+#contactlink a:hover {
+  text-decoration: underline;
+}
 
+/* footer */
 .page-footer {
   background-color: black;
   color: white;

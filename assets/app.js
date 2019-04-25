@@ -15,23 +15,29 @@ $(document).ready(function () {
       scrollTop: ($('#artPage').offset().top)
     }, 200);
   });
-  $("#contact").on('click', function(event) {
+  $("#contact").on('click', function (event) {
     $('html, body').animate({
       scrollTop: ($('#contactPage').offset().top)
-  }, 200);
-});
+    }, 200);
+  });
+
+  // When the user scrolls the page, execute myFunction 
+  window.onscroll = function () { myFunction() };
+
+  // Get the navbar
+  var navbar = document.getElementById("navbar");
+
+  // Get the offset position of the navbar
+  var sticky = navbar.offsetTop;
+
+  // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
 
 });
 
-// // Activate Carousel
-// // $("#myCarousel").carousel();
-
-// // Enable Carousel Indicators
-// $(".item").click(function(){
-//   $("#myCarousel").carousel(1);
-// });
-
-// // Enable Carousel Controls
-// $(".left").click(function(){
-//   $("#myCarousel").carousel("prev");
-// });

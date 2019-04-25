@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <!-- bootstrap js -->
-  <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
+  <!-- <script src="js/bootstrap.min.js" crossorigin="anonymous"></script> -->
   <!-- CSS styling -->
   <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css">
   <!-- google fonts -->
@@ -23,7 +23,7 @@
 <body>
 
   <!-- nav bar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
       aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -31,9 +31,9 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#" id="home">Home <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" id="labels">
           <a class="nav-link" id="about-me" href="#">About Me</a>
         </li>
         <li class="nav-item">
@@ -46,14 +46,11 @@
           <a class="nav-link" id="contact" href="#">Contact</a>
         </li>
       </ul>
-      <span class="navbar-text">
+      <span class="navbar-text" id="spanid">
         Web Developer and Artist
       </span>
     </div>
   </nav>
-
-  <!-- parallax photo -->
-  <!-- <div class="parallax"></div> -->
 
   <!-- cut-out name -->
   <div class="image-container">
@@ -69,17 +66,22 @@
     <!-- bio -->
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-12">
-        <p>
-          I am a passionate woman who thrives off of new knowledge and seeks to be successful in all aspects of life. Growing up competitively dancing, I learned how to manage stress, time, and work at a young age. This work ethic took me to Loyola Marymount University in Los Angeles, where I graduated Cum Laude with a BA in dance and minor in business administration.
+        <p id="summary">
+          I am a passionate woman who thrives off of new knowledge and seeks to be successful in all aspects of life.
+          Growing up competitively dancing, I learned how to manage stress, time, and work at a young age. This work
+          ethic took me to Loyola Marymount University in Los Angeles, where I graduated Cum Laude with a BA in dance
+          and minor in business administration.
         </p>
       </div>
     </div>
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-12">
-        <p>
+        <p id="summary">
           Post graduation, I focused on pursing dance, fitness and photography in Los Angeles until I found myself
-          stagnant and not challenged mentally. I moved home to Seattle, WA to further my skills and pursue a
-          different career - web development! My experience in the arts marries the coding tools I have learned which gives me ample creativity in web development. I am confident in bringing a new, fresh mind to coding whether it is in the work place or personal clients.
+          stagnant and not challenged mentally. I moved home to Seattle, WA to further my skills and venture into a
+          different career - web development! My experience in the arts marries the coding tools I have learned which
+          gives me ample creativity in web development. I am confident in bringing a new, fresh mind to coding whether
+          it is in the work place or for personal clients.
         </p>
       </div>
     </div>
@@ -97,38 +99,38 @@
 
         <div class="card">
           <a href="https://buley004.github.io/ballads-and-brews/">
-            <img class="card-img-top" src="images/Screen Shot 2019-04-23 at 2.30.51 PM.png" alt="Image of App">
+            <img class="card-img-top" src="images/Screen Shot 2019-04-24 at 10.40.31 PM.png" alt="Image of App">
           </a>
           <div class="card text-center">
             <div class="card-body">
               <h5 class="card-title">Ballads and Brews</h5>
-              <p class="card-text">App designed to populate concerts and restaurants near you TONIGHT!</p>
+              <p class="card-text">This app populates concerts and restaurants near you TONIGHT!</p>
               <a href="https://github.com/buley004/ballads-and-brews" class="btn btn-primary" id="cardbutton">Github</a>
             </div>
           </div>
         </div>
 
         <div class="card">
-          <a href="https://jottobot.github.io/unit-4-game/">
-            <img class="card-img-top" src="images/Screen Shot 2019-04-23 at 11.23.12 PM.png" alt="Image of Game">
+          <a href="https://jottobot.github.io/Crystal-Collector/">
+            <img class="card-img-top" src="images/Screen Shot 2019-04-24 at 10.38.49 PM.png" alt="Image of Game">
           </a>
           <div class="card text-center">
             <div class="card-body">
               <h5 class="card-title">Crystal Collector</h5>
               <p class="card-text">Number guessing game; you versus computer.</p>
-              <a href="https://github.com/jottobot/unit-4-game" class="btn btn-primary" id="cardbutton">Github</a>
+              <a href="https://github.com/jottobot/Crystal-Collector" class="btn btn-primary" id="cardbutton">Github</a>
             </div>
           </div>
         </div>
 
         <div class="card">
           <a href="https://jottobot.github.io/Giphy/">
-            <img class="card-img-top" src="images/Screen Shot 2019-04-23 at 11.20.22 PM.png" alt="Image of App">
+            <img class="card-img-top" src="images/Screen Shot 2019-04-24 at 10.50.20 PM.png" alt="Image of App">
           </a>
-          <div class="card-body">
-            <div class="card text-center">
-              <h5 class="card-title">Gif Generator</h5>
-              <p class="card-text">Musically themed Gif generator using giphy API.</p>
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title">Musical Gifs</h5>
+              <p class="card-text">Find gifs of your favorite musical artist.</p>
               <a href="https://github.com/jottobot/Giphy" class="btn btn-primary" id="cardbutton">Github</a>
             </div>
           </div>
@@ -169,13 +171,13 @@
       <div class="card text-center" style="width: 10rem;">
         <img class="card-img-top" src="images/82dc34f0e6bc1593fdd41b6515314298.jpeg" alt="API logo">
         <div class="card-body">
-          <p class="card-text">API documentation</p>
+          <p class="card-text"><br><br><br>APIs/Ajax</p>
         </div>
       </div>
       <div class="card text-center" style="width: 10rem;">
         <img class="card-img-top" src="images/b3dc8105c42a3358849fe48e8b332019.png" alt="Node logo">
         <div class="card-body">
-          <p class="card-text">Node JS</p>
+          <p class="card-text"><br><br>Node JS</p>
         </div>
       </div>
     </div>
@@ -191,7 +193,8 @@
     <h4 id="photo">
       Photography
     </h4>
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"
+      style="width: 500px; margin: 0 auto; margin-bottom: 50px">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -256,18 +259,18 @@
     <h4 id="dance">
       Choreography/Dance
     </h4>
-    <div class="youtube">
+    <div class="youtube" style="margin: 0 auto">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/Q8Oez3MPE54" frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <p>Danced and choreographed by Jordynn Otto</p>
+      <p id="youtubetext">Danced and choreographed by Jordynn Otto.</p>
 
       <iframe width="560" height="315" src="https://www.youtube.com/embed/BRoeecMjRXY" frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <p>Danced and choreographed by Jordynn Otto</p>
+      <p id="youtubetext">Danced and choreographed by Jordynn Otto.</p>
 
       <iframe width="560" height="315" src="https://www.youtube.com/embed/MVQQVFKF5I0" frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <p>Choreographed by Jordynn Otto, danced by Trilogy Dance Company.</p>
+      <p id="youtubetext">Choreographed by Jordynn Otto, danced by Trilogy Dance Company.</p>
     </div>
   </div>
 
@@ -277,18 +280,20 @@
       Contact
     </h2>
     <hr>
-    <p id="contactInfo">
-      Call me: 206-909-5153<br>
-      Write me: j_taylor92@yahoo.com <br>
-      Stalk me: <a href="https://www.instagram.com/jottobot/" id="contactlink"> @jottobot</a><br>
-    </p>
+    <p id="contacttitle">Call me:</p>
+    <p id="contactInfo">206-909-5153</p><br>
+    <p id="contacttitle">Write me:</p>
+    <p id="contactInfo">j_taylor92@yahoo.com</p><br>
+    <p id="contacttitle">Stalk me:</p>
+    <p id="contactInfo"><a href="https://www.instagram.com/jottobot/" id="contactlink"> @jottobot</a></p><br>
     <p id="contactInfo">
       Linkedin: <a
-        href="https://www.linkedin.com/in/jordynn-otto-861918173?trk=people-guest_profile-result-card_result-card_full-click" id="contactlink">
+        href="https://www.linkedin.com/in/jordynn-otto-861918173?trk=people-guest_profile-result-card_result-card_full-click"
+        id="contactlink">
         https://www.linkedin.com/jordynn-otto</a><br>
       Github: <a href="https://github.com/jottobot" id="contactlink">https://github.com/jottobot</a><br>
-      Resume: 
-    </p>   
+      Resume: <a href="assets/Jordynn Otto Resume.pdf" id="contactlink">Download resume</a>
+    </p>
   </div>
 
   <!-- jQuery -->
@@ -309,10 +314,10 @@
 
 <!-- Footer -->
 <footer class="page-footer">
-    <div class="footer-copyright text-center py-3">
-      © 2019 Copyright: Jordynn Otto.
-    </div>
-  </footer>
+  <div class="footer-copyright text-center py-3">
+    © 2019 Copyright: Jordynn Otto.
+  </div>
+</footer>
 
 
 </html>
