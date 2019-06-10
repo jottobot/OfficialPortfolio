@@ -12,7 +12,7 @@
 .text {
   background-color: rgba(255, 255, 255, 0.847);
   color: black;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Playfair Display', serif;
   font-weight: bold;
   font-size: 5vw; /* Responsive font size */
   letter-spacing: 1px;
@@ -29,7 +29,7 @@
 
 /* nav bar fonts */
 .nav-link {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Playfair Display', serif;
   color: darkolivegreen;
 }
 #labels {
@@ -55,7 +55,7 @@
 #title {
   text-align: center;
   margin-bottom: 20px;
-  font-family: 'Merriweather', serif;
+  font-family: 'Playfair Display', serif;
   font-size: 40px;
   letter-spacing: 2px;
   color: #575C33;
@@ -67,7 +67,7 @@ hr {
 
 /* font family */
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Frank Ruhl Libre', serif;
 }
 
 /* each section stylizing */
@@ -78,7 +78,7 @@ p {
   padding-right: 150px;
 }
 #summary {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Frank Ruhl Libre', serif;
   text-align: justify;
   font-size: 20px;
   color: #31261c;
@@ -149,7 +149,29 @@ p {
   margin-bottom: 20px;
   letter-spacing: 1.2px;
   color: #6D5D49;
+  font-family: 'Frank Ruhl Libre', serif;
 }
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+/* .container {
+  width: 100%; 
+  background-color: white; 
+} */
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+.html {width: 90%; background-color: #808080;}
+.css {width: 90%; background-color: #808080;}
+.mysql {width: 70%; background-color: #808080;}
+.js {width: 60%; background-color: #808080;}
+.node {width: 60%; background-color: #808080;}
+
 
 /* art portfolio div */
 #photo {
@@ -158,18 +180,22 @@ p {
   font-size: 30px;
   letter-spacing: 1.2px;
   color: #6D5D49;
+  font-family: 'Frank Ruhl Libre', serif;
+  align-content: center;
 }
 .carousel {
   margin-bottom: 50px;  
 }
 #carouseltext {
   color: black;
+  font-family: 'Frank Ruhl Libre', serif;
 }
 #dance {
   text-align: center;
   margin-bottom: 20px;
   letter-spacing: 1.2px;
   color: #6D5D49;
+  font-family: 'Frank Ruhl Libre', serif;
 }
 .video-container  {
   position: relative;
@@ -187,7 +213,7 @@ p {
 }
 #youtubetext {
   font-size: 17px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Frank Ruhl Libre', serif;
   margin-bottom: 35px;
   color: #36281c;
   text-align: center;
@@ -195,6 +221,7 @@ p {
 #dance {
   margin-bottom: 20px;
   text-align: center;
+  font-family: 'Frank Ruhl Libre', serif;
 }
 
 /* contact div */
@@ -202,12 +229,12 @@ p {
   text-align: center;
 }
 #contactInfo {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Frank Ruhl Libre', serif;
   font-size: 18px;
   color: #493829;
 }
 #contacttitle {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Frank Ruhl Libre', serif;
   font-size: 22px;
   margin-bottom: 3px;
   color:  #492d15;
