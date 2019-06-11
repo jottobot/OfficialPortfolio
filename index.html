@@ -12,6 +12,10 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <!-- bootstrap js -->
   <!-- <script src="js/bootstrap.min.js" crossorigin="anonymous"></script> -->
+  <!-- font awesome -->
+  <!-- <link rel="stylesheet" type="text/css" media="screen" link href="assets/all.css"> -->
+  <!-- <link rel="stylesheet" href="assets/all.min.css"> -->
+  <!-- <script defer src="assets/all.js"></script> -->
   <!-- CSS styling -->
   <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css">
   <!-- google fonts -->
@@ -56,8 +60,6 @@
   <div class="image-container">
     <div class="text">Jordynn Otto</div>
   </div>
-
-  <div class="parallax"></div>
 
   <div class="container">
 
@@ -172,7 +174,9 @@
         <div class="skills node">60%</div>
       </div>
 
-      <!-- <div class="card-deck">
+    </div>
+
+    <!-- <div class="card-deck">
       <div class="card text-center" style="width: 10rem;">
         <img class="card-img-top" src="images/f56ed6ae6dca9cd87d8393ab747008ad.jpeg" alt="HTML logo">
         <div class="card-body">
@@ -212,14 +216,107 @@
     </div>
   </div> -->
 
-      <!-- art portfolio -->
-      <div id="artPage">
-        <h2 id="title">
-          Art Portfolio
-        </h2>
-        <hr>
-        <!-- carousel of modeling/photography -->
-        <h4 id="photo">
+    <!-- art portfolio -->
+    <div id="artPage">
+      <h2 id="title">
+        Art Portfolio
+      </h2>
+      <hr>
+
+      <!-- <h1>Isotope - filtering &amp; sorting</h1>
+      <h2>Filter</h2>
+      <div id="filters" class="button-group"> <button class="button is-checked" data-filter="*">show all</button>
+        <button class="button" data-filter=".metal">metal</button>
+        <button class="button" data-filter=".transition">transition</button>
+        <button class="button" data-filter=".alkali, .alkaline-earth">alkali and alkaline-earth</button>
+        <button class="button" data-filter=":not(.transition)">not transition</button>
+        <button class="button" data-filter=".metal:not(.transition)">metal but not transition</button>
+        <button class="button" data-filter="numberGreaterThan50">number > 50</button>
+        <button class="button" data-filter="ium">name ends with &ndash;ium</button>
+      </div>
+
+      <h2>Sort</h2>
+      <div id="sorts" class="button-group"> <button class="button is-checked" data-sort-by="original-order">original
+          order</button>
+        <button class="button" data-sort-by="name">name</button>
+        <button class="button" data-sort-by="symbol">symbol</button>
+        <button class="button" data-sort-by="number">number</button>
+        <button class="button" data-sort-by="weight">weight</button>
+        <button class="button" data-sort-by="category">category</button>
+      </div> -->
+
+      <div class="grid">
+        <div class="element-item transition metal " data-category="transition">
+          <!-- <h3 class="name">Mercury</h3>
+          <p class="symbol">Hg</p>
+          <p class="number">80</p>
+          <p class="weight">200.59</p> -->
+          <img src="images/NYCDAORL18209_BRADY_FARRAR-028_edit.jpg" class="d-block w-100"
+                    alt="Image of Jordynn's photography.">
+
+        </div>
+        <div class="element-item metalloid " data-category="metalloid">
+          <!-- <h3 class="name">Tellurium</h3>
+          <p class="symbol">Te</p>
+          <p class="number">52</p>
+          <p class="weight">127.6</p> -->
+          <img src="images/CDC17102_GRACE_RATTERREE-107_edit.jpg" class="d-block w-100"
+          alt="Image of Jordynn's photography.">
+
+        </div>
+        <div class="element-item post-transition metal " data-category="post-transition">
+          <!-- <h3 class="name">Bismuth</h3>
+          <p class="symbol">Bi</p>
+          <p class="number">83</p>
+          <p class="weight">208.980</p> -->
+          <img src="images/Screen Shot 2018-10-18 at 5.02.18 PM.png" class="d-block w-100"
+          alt="Image of Jordynn's modeling.">
+
+        </div>
+        <div class="element-item post-transition metal " data-category="post-transition">
+          <!-- <h3 class="name">Lead</h3>
+          <p class="symbol">Pb</p>
+          <p class="number">82</p>
+          <p class="weight">207.2</p> -->
+          <img src="images/Screen Shot 2018-08-29 at 2.58.28 PMedit.jpg" class="d-block w-100"
+          alt="Image of Jordynn's modeling.">
+
+        </div>
+        <div class="element-item transition metal " data-category="transition">
+          <!-- <h3 class="name">Gold</h3>
+          <p class="symbol">Au</p>
+          <p class="number">79</p>
+          <p class="weight">196.967</p> -->
+          <img src="images/IMG_7895.JPG" class="d-block w-100" alt="Image of Jordynn's modeling.">
+
+
+        </div>
+        <div class="element-item alkali metal " data-category="alkali">
+          <!-- <h3 class="name">Potassium</h3>
+          <p class="symbol">K</p>
+          <p class="number">19</p>
+          <p class="weight">39.0983</p> -->
+      
+
+        </div>
+        <div class="element-item alkali metal " data-category="alkali">
+          <!-- <h3 class="name">Sodium</h3>
+          <p class="symbol">Na</p>
+          <p class="number">11</p>
+          <p class="weight">22.99</p> -->
+        </div>
+        <div class="element-item transition metal " data-category="transition">
+          <!-- <h3 class="name">Cadmium</h3>
+          <p class="symbol">Cd</p>
+          <p class="number">48</p>
+          <p class="weight">112.411</p> -->
+        </div>
+        
+       
+      </div>
+
+      <!-- carousel of modeling/photography -->
+      <!-- <h4 id="photo">
           Photography
         </h4>
         <div class="row">
@@ -286,10 +383,10 @@
               </a>
             </div>
           </div>
-        </div>
+        </div> -->
 
-        <!-- youtube videos -->
-        <h4 id="dance">
+      <!-- youtube videos -->
+      <!-- <h4 id="dance">
           Choreography/Dance
         </h4>
 
@@ -309,9 +406,9 @@
           <iframe width="853" height="480" src="https://www.youtube.com/embed/MVQQVFKF5I0" frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <p id="youtubetext">Choreographed by Jordynn Otto, danced by Trilogy Dance Company.</p>
+        <p id="youtubetext">Choreographed by Jordynn Otto, danced by Trilogy Dance Company.</p> -->
 
-        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Q8Oez3MPE54" frameborder="0"
+      <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Q8Oez3MPE54" frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <p id="youtubetext">Danced and choreographed by Jordynn Otto.</p>
 
@@ -322,13 +419,45 @@
       <iframe width="560" height="315" src="https://www.youtube.com/embed/MVQQVFKF5I0" frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <p id="youtubetext">Choreographed by Jordynn Otto, danced by Trilogy Dance Company.</p> -->
+    </div>
+
+    <!-- contact page -->
+    <div id="contactPage">
+      <h2 id="title">
+        Contact
+      </h2>
+      <hr>
+    </div>
 
 
-        <!-- contact page -->
+    <!-- <div class="row">
+          <div class="col-md-12 col-sm-12 text-center">
+            <h2 class="subheading">I'd love to hear from you.</h2>
+          </div>
+        </div>
         <div class="row">
-          <!-- <div class="col-sm-12 col-md-12 col-lg-12"> -->
-          <div id="contactPage">
-            <h2 id="title">
+          <div class="contact-info-box col-md-4 col-sm-4 col-xs-6 wow fadeInUp" data-wow-delay="0.6s">
+            <i class="far fa-phone"></i>
+            <h3>206-909-5153</h3>
+          </div>
+          <div class="contact-info-box col-md-4 col-sm-4 col-xs-6 wow fadeInUp" data-wow-delay="0.8s">
+            <i class="fa fa-envelope-o"></i>
+            <h3>jordynn.otto@gmail.com</h3>
+          </div>
+          <div class="contact-info-box col-md-4 col-sm-4 col-xs-6 wow fadeInUp" data-wow-delay="1s">
+            <i class="fa fa-map-marker"></i>
+            <h3>San Francisco, California</h3>
+          </div>
+        </div> -->
+
+
+
+
+    <!-- contact page -->
+    <!-- <div class="row"> -->
+    <!-- <div class="col-sm-12 col-md-12 col-lg-12"> -->
+    <!-- <div id="contactPage"> -->
+    <!-- <h2 id="title">
               Contact
             </h2>
             <hr>
@@ -346,26 +475,29 @@
               Github: <a href="https://github.com/jottobot" id="contactlink">https://github.com/jottobot</a><br>
               Resume: <a href="assets/Jordynn Otto Resume.pdf" id="contactlink">Download resume</a>
             </p>
-          </div>
-          <!-- </div> -->
-        </div>
+          </div> -->
+    <!-- </div> -->
+    <!-- </div> -->
 
-        <!-- jQuery -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-        <!-- javascript -->
-        <script src="assets/app.js"></script>
+    <!-- javascript -->
+    <script src="assets/app.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <scritp src="assets/isotope.js"></scritp>
 
-        <!-- bootstrap js -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-          integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-          crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-          integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-          crossorigin="anonymous"></script>
+    <!-- bootstrap js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
 
-        <!-- container div -->
-      </div>
+    <!-- container div -->
+  </div>
 
 </body>
 

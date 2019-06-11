@@ -174,7 +174,77 @@ p {
 
 
 /* art portfolio div */
-#photo {
+* { box-sizing: border-box; }
+
+/* body {
+  font-family: sans-serif;
+} */
+
+/* ---- isotope ---- */
+
+/* .grid {
+  border: 1px solid #333;
+} */
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .element-item ---- */
+
+.element-item {
+  position: relative;
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  padding: 10px;
+  /* background: #888; */
+  color: #262524;
+}
+
+.element-item > * {
+  margin: 0;
+  padding: 0;
+}
+
+.element-item .name {
+  position: absolute;
+
+  left: 10px;
+  top: 60px;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.element-item .symbol {
+  position: absolute;
+  left: 10px;
+  top: 0px;
+  font-size: 42px;
+  font-weight: bold;
+  color: white;
+}
+
+.element-item .number {
+  position: absolute;
+  right: 8px;
+  top: 5px;
+}
+
+.element-item .weight {
+  position: absolute;
+  left: 10px;
+  top: 76px;
+  font-size: 12px;
+}
+
+/* #photo {
   margin-bottom: 20px;
   text-align: center;
   font-size: 30px;
@@ -199,7 +269,7 @@ p {
 }
 .video-container  {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
+  padding-bottom: 56.25%; 
   padding-top: 25px;
   height: 0;
   margin-bottom: 10px;
@@ -222,9 +292,46 @@ p {
   margin-bottom: 20px;
   text-align: center;
   font-family: 'Frank Ruhl Libre', serif;
-}
+} */
 
 /* contact div */
+/* #contact {
+  background: #f9f9f9;
+  text-align: center;
+}
+#contact .fa {
+  font-size: 40px;
+}
+#contact form {
+  padding-top: 80px;
+}
+#contact .form-control {
+  border-radius: 0;
+  box-shadow: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: all 0.4s ease-in-out;
+}
+#contact .form-control:focus {
+  border: 2px solid #808080;
+}
+#contact input {
+  height: 50px;
+}
+#contact input[type="submit"] {
+  border: 2px solid #808080;
+  margin-top: 18px;
+  height: 54px;
+}
+#contact input[type="submit"]:hover {
+  background: #808080;
+  color: #ffffff;
+}
+#contact textarea {
+  height: 170px;
+}
+.contact-info-box h3 { font-size: 16px; } */
+
 #contactPage {
   text-align: center;
 }
