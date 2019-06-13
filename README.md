@@ -1,9 +1,9 @@
 # Jordynn Otto Portfolio
 
-Technologies used: HTML, CSS, Bootstrap, JS/jQuery
+Technologies used: HTML, CSS, Bootstrap, JS/jQuery, Font Awesome, and Google Fonts.
 
 ## About
 
-Portfolio including both of Jordynn's web development and art portfolio work.
+Self-designed portfolio including both of Jordynn's web development and art portfolio work.
 
 Deployed at: https://jottobot.github.io/OfficialPortfolio/

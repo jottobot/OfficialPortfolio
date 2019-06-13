@@ -125,7 +125,7 @@ p {
   border-color: black;
 }
 #card-img-top:hover {
-  animation: shake 1s;
+  animation: shake 3s;
   animation-iteration-count: 0.5s;
 }
 
