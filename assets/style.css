@@ -129,20 +129,31 @@ p {
 /* skills div */
 #skills {
   text-align: center;
+  margin-top: 30px;
   margin-bottom: 30px;
-  letter-spacing: 1.2px;
+  letter-spacing: 1.1px;
   color: #6D5D49;
   font-family: 'Playfair Display', serif;
+  font-weight: bold;
 }
 .contacttext {
   font-family: 'Playfair Display', serif;
   margin-top: 5px;
 }
+#skillsrow {
+  margin-bottom: 30px;
+}
 
 
 /* art portfolio div */
-#youtube {
+#photoone {
   margin-bottom: 20px;
+}
+.youtube {
+  margin-top: 40px;
+}
+#youtube{
+  margin-bottom: 40px;
 }
 
 /* contact div */
