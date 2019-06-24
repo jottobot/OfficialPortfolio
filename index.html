@@ -10,6 +10,11 @@
   <!-- bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
   <!-- font awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
@@ -95,106 +100,123 @@
     <hr>
     <!-- projects -->
     <div class="row" id="projectcards">
-        <!-- <div class="col-6"> -->
-          <div class="card-group">
-            <div class="card">
-              <div class="zoom">
-                <a href="https://buley004.github.io/ballads-and-brews/">
-                  <img class="card-img-top" src="images/Screen Shot 2019-04-24 at 10.40.31 PM.png" alt="Image of app">
-                </a>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Ballads and Brews</h5>
-                <p class="card-text">App populates concerts and restaurants near you NOW!</p>
-                <p class="card-text">Uses HTML, CSS, bootstrap, jQuery,
-                  and API documentation.</p>
-              </div>
-              <div class="card-footer">
-                <a href="https://github.com/buley004/ballads-and-brews" class="btn btn-primary" id="cardbutton">Github</a>
-              </div>
-            </div>
-            <div class="card">
-              <div class="zoom">
-                <a href="#">
-                  <img class="card-img-top" src="images/Screen Shot 2019-04-24 at 10.40.31 PM.png" alt="Image of app"></a>
-                </a>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Divvy</h5>
-                <p class="card-text">Household bill splitting app.</p> 
-                <p class="card-text">Uses HTML, CSS, bootstrap, jQuery, sequelize/MSQL, and API
-                  documentation.</p>
-              </div>
-              <div class="card-footer">
-                <a href="https://github.com/jottobot/Divvy" class="btn btn-primary" id="cardbutton">Github</a>
-              </div>
-            </div>
-            <div class="card">
-              <div class="zoom">
-                <a href="#">
-                  <img class="card-img-top" src="images/Screen Shot 2019-04-24 at 10.40.31 PM.png" alt="Image of app"></a>
-                </a>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">THIS WILL BE ANOTHER PROJECT</h5>
-                <p class="card-text">...</p> 
-                <p class="card-text">...</p>
-              </div>
-              <div class="card-footer">
-                <a href="https://github.com/jottobot/Divvy" class="btn btn-primary" id="cardbutton">Github</a>
-              </div>
-            </div>
+      <!-- <div class="col-6"> -->
+      <div class="card-group">
+        <div class="card">
+          <div class="zoom">
+            <a href="https://buley004.github.io/ballads-and-brews/">
+              <img class="card-img-top" src="images/Screen Shot 2019-06-24 at 12.11.57 PM.png" alt="Image of app">
+            </a>
           </div>
-        <!-- </div> -->
+          <div class="card-body">
+            <h5 class="card-title">Ballads and Brews</h5>
+            <p class="card-text">App populates concerts and restaurants near you NOW!</p>
+            <p class="card-text">Uses HTML, CSS, bootstrap, jQuery,
+              and API documentation.</p>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/buley004/ballads-and-brews" class="btn btn-primary" id="cardbutton">Github</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="zoom">
+            <a href="https://vast-gorge-37663.herokuapp.com">
+              <img class="card-img-top" src="images/Screen Shot 2019-06-24 at 12.11.29 PM.png" alt="Image of app"></a>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Divvy</h5>
+            <p class="card-text">Household bill splitting app.</p>
+            <p class="card-text">Uses HTML, CSS, bootstrap, jQuery, sequelize/MSQL, and API
+              documentation.</p>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/jottobot/Divvy" class="btn btn-primary" id="cardbutton">Github</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="zoom">
+            <a href="#">
+              <img class="card-img-top" src="#" alt="Image of app"></a>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">THIS WILL BE ANOTHER PROJECT</h5>
+            <p class="card-text">...</p>
+            <p class="card-text">...</p>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/jottobot/Divvy" class="btn btn-primary" id="cardbutton">Github</a>
+          </div>
+        </div>
       </div>
+      <!-- </div> -->
+    </div>
+  </div>
+
+  <!-- skills -->
+  <h3 id="skills">
+    Skills
+  </h3>
+
+  <center>
+    <div class="row" id="skillsrowone">
+      <div class="col-md-2"></div>
+      <div class="col-md-2">
+        <i class='fas fa-code' style="font-size:50px" id="contacticon"></i>
+        <br>
+        <p class="contacttext">HTML</p>
+      </div>
+
+      <div class="col-md-2">
+        <i class='fab fa-css3' style="font-size:50px" id="contacticon"></i>
+        <br>
+        <p class="contacttext">CSS</p>
+      </div>
+
+      <div class="col-md-2">
+        <span class="glyphicon glyphicon-bold" style="font-size:50px" id="contacticon"></span>
+        <br>
+        <p class="contacttext">Bootstrap</p>
+      </div>
+
+      <div class="col-md-2">
+        <i class='fas fa-dollar-sign' style="font-size:50px" id="contacticon"></i>
+        <br>
+        <p class="contacttext">Javascript</p>
+      </div>
+      <div class="col-md-2"></div>
     </div>
 
-    <!-- skills -->
-    <h3 id="skills">
-      Skills
-    </h3>
-
-    <center>
-      <div class="row">
-        <div class="col-md-3"></div>
-        <div class="col-md-2">
-          <i class='fas fa-code' style="font-size:50px" id="contacticon"></i>
-          <br>
-          <p class="contacttext">HTML</p>
-        </div>
-
-        <div class="col-md-2">
-          <i class='fab fa-css3' style="font-size:50px" id="contacticon"></i>
-          <br>
-          <p class="contacttext">CSS</p>
-        </div>
-
-        <div class="col-md-2">
-          <i class='fas fa-dollar-sign' style="font-size:50px" id="contacticon"></i>
-          <br>
-          <p class="contacttext">jQuery</p>
-        </div>
-        <div class="col-md-3"></div>
+    <div class="row" id="skillsrow">
+      <div class="col-md-1"></div>
+      <div class="col-md-2">
+        <i class="fa fa-phone" style="font-size:50px" id="contacticon"></i>
+        <br>
+        <p class="contacttext">APIs</p>
       </div>
 
-      <div class="row" id="skillsrow">
-          <div class="col-md-4"></div>
-        <div class="col-md-2">
-          <i class='fas fa-stream' style="font-size:50px" id="contacticon"></i>
-          <br>
-          <p class="contacttext">mySQL</p>
-        </div>
-
-        
-        <div class="col-md-2">
-          <i class="fa fa-camera" style="font-size:50px" id="contacticon"></i>
-          <br>
-          <p class="contacttext">Photoshop</p>
-        </div>
-        <div class="col-md-4"></div>
+      <div class="col-md-2">
+        <i class='fas fa-database' style="font-size:50px" id="contacticon"></i>
+        <br>
+        <p class="contacttext">mySQL</p>
       </div>
-    </center>
-    <!-- end of web portfolio div -->
+
+      <div class="col-md-2">
+        <i class="fas fa-hexagon" style="font-size:50px" id="contacticon"></i>
+        <br>
+        <p class="contacttext">nodeJS</p>
+      </div>
+
+      <div class="col-md-2">
+        <i class="fa fa-camera" style="font-size:50px" id="contacticon"></i>
+        <br>
+        <p class="contacttext">Photoshop</p>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+  </center>
+  <!-- end of web portfolio div -->
   </div>
 
   <!-- art portfolio -->
@@ -253,18 +275,20 @@
 
     <h5 class="contact">I would love to hear from you.</h4>
 
-      <div class="row">
-        <div class="col-md-6">
+      <div class="row" id="contactrowone">
+        <div class="col-2"></div>
+        <div class="col-md-4">
           <i class="fa fa-phone" style="font-size:48px" id="contacticon"></i>
           <br>
           <p class="contacttext">206-909-5153</p>
         </div>
 
-        <div class="col-md-6">
+        <div class="col-md-4">
           <i class="fa fa-envelope" style="font-size:48px" id="contacticon"></i>
           <br>
           <p class="contacttext">jordynn.otto@gmail.com</p>
         </div>
+        <div class="col-2"></div>
       </div>
 
 
