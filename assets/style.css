@@ -142,6 +142,11 @@ p {
   align-content: center;
   text-align: center;
 }
+#projectcards2 {
+  margin-bottom: 40px;
+  align-content: center;
+  text-align: center;
+}
 .zoom {
   padding: 30px;
   padding-left: 0px;
@@ -303,7 +308,7 @@ p {
   .contacttext {
     text-align: center;
   }
-  #contactrowone{
+  #contactrowone{ 
     margin-bottom: 20px;
   }
   #row1 {
