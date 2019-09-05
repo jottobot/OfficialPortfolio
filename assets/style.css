@@ -29,6 +29,7 @@
 .nav-link {
   font-family: 'Playfair Display', serif;
   color: darkolivegreen;
+  font-size: 15px;
 }
 #labels {
   color: darkolivegreen;
@@ -44,6 +45,7 @@
   color: darkolivegreen;
   font-family: 'Playfair Display', serif;
   float: right;
+  font-size: 15px;
 }
 .sticky {
   position: fixed;
@@ -75,7 +77,7 @@ p {
 }
 
 .headshot {
-  height: 200px;
+  height: 220px;
   width: auto;
   transition: filter .8s ease-in-out;
   -webkit-filter: grayscale(100%);
