@@ -79,7 +79,6 @@ p {
 }
 
 .headshot {
-  max-width: none;
   height: 220px;
   width: auto;
   -webkit-transition: -webkit-filter .8s ease-in-out;
@@ -150,7 +149,7 @@ p {
 #projectcards {
   margin-bottom: 40px;
   text-align: center;
-  margin-left: 40px;
+  margin-left: 30px;
 }
 #projectcards2 {
   margin-bottom: 40px;
@@ -209,12 +208,15 @@ p {
 /* art portfolio div */
 #photoone {
   margin-bottom: 20px;
+  margin-left: 10%;
+}
+#phototwo {
+  margin-left: 10%;
 }
 .youTube {
   margin-left: 16%;
   margin-top: 40px;
 }
-
 
 /* contact div */
 #contactPage {
@@ -251,8 +253,10 @@ p {
   font-family: 'Frank Ruhl Libre', serif;
 }
 
+/* (min-width: 415px) and (max-width: 768px) */
+
 /* MEDIA QUERIES */
-@media only screen and (min-width: 415px) and (max-width: 768px) {
+@media only screen and (max-width: 415px)  {
   .image-container {
     background-image: url("../images/Rain032.jpg");
     background-size: cover; 
@@ -299,14 +303,18 @@ p {
     height: 200px;
     width: auto;
     margin: 0 auto;
-    margin-left: 200px;
     margin-top: 20px;
-    
   }
   #webPage {
     padding: 50px;
     padding-left: 50px;
     padding-right: 50px;
+  }
+  #projectcards {
+    margin: auto;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 100%;
   }
   #skills {
     padding-left: 0px;
@@ -407,12 +415,14 @@ p {
     padding-left: 20px;
     padding-right: 20px;
   }
-  #photoone {
-    margin-left: 30px;
+  .col-xs-12 {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  /* #photoone {
   }
   #phototwo {
-    margin-left: 30px;
-  }
+  } */
   #contactPage {
     padding: 50px;
     padding-left: 0px;
@@ -423,6 +433,7 @@ p {
   }
   #contactrowone {
     margin: 0 auto;
+    margin-bottom: 20px;
   }
   #row1 {
     margin-left: 60px;
