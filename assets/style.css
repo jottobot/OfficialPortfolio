@@ -183,6 +183,11 @@ p {
 .container {
   flex-wrap: nowrap;
 }
+.skills {
+  -webkit-column-count: 3; /* Old Chrome, Safari and Opera */
+  -moz-column-count: 3; /* Old Firefox */
+  column-count: 6;
+}
 #skills {
   text-align: center;
   margin-top: 30px;
@@ -196,12 +201,6 @@ p {
 .contacttext {
   font-family: 'Playfair Display', serif;
   margin-top: 5px;
-}
-#skillsrowone {
-  margin-bottom: 30px;
-}
-#skillsrow {
-  margin-bottom: 30px;
 }
 
 
@@ -416,13 +415,14 @@ p {
     padding-right: 20px;
   }
   .col-xs-12 {
-    margin: 0 auto;
     margin-bottom: 10px;
   }
-  /* #photoone {
+  #photoone {
+    margin-left: 0px;
   }
   #phototwo {
-  } */
+    margin-left: 0px;
+  }
   #contactPage {
     padding: 50px;
     padding-left: 0px;
@@ -430,6 +430,13 @@ p {
   }
   .contacttext {
     text-align: center;
+    font-size: 12px;
+  }
+  #contacticon1{
+    margin-left: 30px;
+  }
+  #contacticon2 {
+    margin-right: 100px;
   }
   #contactrowone {
     margin: 0 auto;
