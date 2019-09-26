@@ -105,27 +105,48 @@ p {
 #summary {
   font-family: 'Frank Ruhl Libre', serif;
   text-align: justify;
-  font-size: 20px;
+  font-size: 17px;
   color: #31261c;
+  display: -webkit-flex; /* Safari */
+  -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+.textquote {
+  text-align: center;
+  font-size: 37px;
+  font-style: italic;
+}
+.button {
+  background-color: rgba(100, 79, 33, 0.329);
+  border: none;
+  color: #31261c;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 200px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 20px;
+  align-content: center;
+  margin-left: 40%;
+  font-family: 'Frank Ruhl Libre', serif;
+}
+.button:hover {
+  color: #31261c; 
+  text-decoration: none;
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); 
 }
 #webPage {
   background-color: rgba(176, 187, 137, 0.555);
   padding: 50px;
   padding-left: 100px;
   padding-right: 100px;
-}
-.parallax { 
-  /* The image used */
-  background-image: url("../images/nature1.jpeg");
-
-  /* Set a specific height */
-  height: 300px; 
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 #artPage {
   background-color: rgba(216, 213, 201, 0.548);
@@ -180,13 +201,17 @@ p {
      object-fit: cover;
 }
 /* skills div */
-.container {
-  flex-wrap: nowrap;
+.skill {
+align-content: center;
 }
 .skills {
   -webkit-column-count: 3; /* Old Chrome, Safari and Opera */
   -moz-column-count: 3; /* Old Firefox */
   column-count: 6;
+}
+.skillicons {
+  text-align: center;
+  align-content: center;
 }
 #skills {
   text-align: center;
@@ -198,10 +223,10 @@ p {
   font-weight: bold;
   font-size: 30px;
 }
-.contacttext {
+/* .contacttext {
   font-family: 'Playfair Display', serif;
   margin-top: 5px;
-}
+} */
 
 
 /* art portfolio div */
@@ -220,29 +245,48 @@ p {
 /* contact div */
 #contactPage {
   text-align: center;
+  font-family: 'Frank Ruhl Libre', serif;
 }
-#contacticon {
- margin-bottom: 5px;
+#contact {
+  margin-top: 30px;
+  margin-bottom: 80px;
 }
-.contact {
+.contacttitle {
+  text-transform: uppercase;
+  font-family: 'Alegreya', serif;
+}
+.fab {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+.fas {
+  font-size: 30px;
+}
+.contacttext2 {
   font-family: 'Frank Ruhl Libre', serif;
   margin-bottom: 30px;
-  color: #31261c;
-  font-size: 18px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: rgb(14, 46, 2);
 }
 .contacttext {
   font-family: 'Frank Ruhl Libre', serif;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: rgb(14, 46, 2);
 }
-.contactrowone {
-  margin-bottom: 30px;
+.contacttext:hover {
+  color: white;
 }
-#contactlink {
-  color:black;
+.linktext {
   font-family: 'Frank Ruhl Libre', serif;
 }
-#contactlink a:hover {
-  text-decoration: underline;
-  color: darkolivegreen;
+.line {
+  width: 40%;
+  background-color: rgb(14, 46, 2) !important;
+  height: 3px !important;
+  border-top: none;
 }
 
 /* footer */
@@ -252,7 +296,6 @@ p {
   font-family: 'Frank Ruhl Libre', serif;
 }
 
-/* (min-width: 415px) and (max-width: 768px) */
 
 /* MEDIA QUERIES */
 @media only screen and (max-width: 415px)  {
@@ -414,9 +457,9 @@ p {
     padding-left: 20px;
     padding-right: 20px;
   }
-  .col-xs-12 {
+  /* .col-xs-12 {
     margin-bottom: 10px;
-  }
+  } */
   #photoone {
     margin-left: 0px;
   }
@@ -425,8 +468,8 @@ p {
   }
   #contactPage {
     padding: 50px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .contacttext {
     text-align: center;
@@ -450,5 +493,12 @@ p {
     height: 30vw;
     -o-object-fit: cover;
        object-fit: cover;
+  }
+  .skill {
+    padding-left: 60px;
+    padding-right: 60px
+    }
+  .col {
+    margin-bottom: 20px;
   }
 }

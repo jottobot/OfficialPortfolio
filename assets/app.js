@@ -14,7 +14,7 @@ $(document).ready(function () {
       scrollTop: ($('#artPage').offset().top)
     }, 500);
   });
-  $("#contact").on('click', function (event) {
+  $("#contactt").on('click', function (event) {
     $('html, body').animate({
       scrollTop: ($('#contactPage').offset().top)
     }, 500);
