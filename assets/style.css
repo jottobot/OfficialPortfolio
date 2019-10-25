@@ -322,6 +322,12 @@ align-content: center;
   text-decoration: none;
   color: rgb(14, 46, 2);
 }
+.contacttext2:hover {
+  color: white;
+}
+.contacttext3:hover {
+  color: white;
+}
 .contacttext3 {
   font-family: 'Frank Ruhl Libre', serif;
   margin-bottom: 30px;
