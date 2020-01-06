@@ -168,16 +168,12 @@ p {
   background-color: #31261c;
   border-color: #31261c;
   color: white;
+  text-align: center;
 }
 .projectcards {
   margin-bottom: 40px;
   text-align: center;
-  /* margin-left: 30px; */
 }
-/* #projectcards2 {
-  margin-bottom: 40px;
-  text-align: center;
-} */
 .zoom {
   padding: 30px;
   padding-left: 0px;
@@ -195,6 +191,12 @@ p {
   -ms-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   transform: scale(1.1); 
+}
+.card-body {
+  text-align: center;
+}
+.card-footer {
+  text-align: center;
 }
 .card-img-top {
   width: 100%;
@@ -403,12 +405,6 @@ align-content: center;
   }
   #projectcards {
     margin: auto;
-    text-align: center;
-    width: 100%;
-  }
-  #projectcards2 {
-    margin: auto;
-    margin-bottom: 40px;
     text-align: center;
     width: 100%;
   }
