@@ -169,15 +169,15 @@ p {
   border-color: #31261c;
   color: white;
 }
-#projectcards {
+.projectcards {
   margin-bottom: 40px;
   text-align: center;
-  margin-left: 30px;
+  /* margin-left: 30px; */
 }
-#projectcards2 {
+/* #projectcards2 {
   margin-bottom: 40px;
   text-align: center;
-}
+} */
 .zoom {
   padding: 30px;
   padding-left: 0px;
